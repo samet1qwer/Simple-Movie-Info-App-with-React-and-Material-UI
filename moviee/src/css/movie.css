@@ -1,0 +1,46 @@
+.container {
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  margin: 8px 10px;
+  box-shadow: 1px 1px rgb(231, 76, 60);
+  cursor: pointer;
+}
+.img-btn {
+  width: 300px;
+  height: 350px;
+  box-shadow: 1px 2px rgb(132, 132, 132);
+}
+.descrip {
+  width: 100%;
+}
+.big-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.title {
+  height: 50px;
+  color: lightyellow;
+}
+.type {
+  height: 10px;
+  color: yellow;
+}
+.year {
+  height: 20px;
+  color: red;
+  float: inline-end;
+}
+.container:hover {
+  transform: scale(1.01);
+  transition: all 0.3s ease;
+}

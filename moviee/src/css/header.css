@@ -1,0 +1,17 @@
+.headers {
+  height: 10vh;
+  background-color: rgb(33, 33, 33);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+.logo {
+  margin: 0 0 0 20px;
+  cursor: pointer;
+  font-size: 25px;
+}
+.input {
+  margin: 0 20px 0 0;
+}
