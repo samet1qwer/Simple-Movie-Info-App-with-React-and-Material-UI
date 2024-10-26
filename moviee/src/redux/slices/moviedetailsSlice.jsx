@@ -7,7 +7,7 @@ const initialState = {
 };
 
 export const getDetails = createAsyncThunk("getDetails", async (imdbID) => {
-  const apiKey = "b5a0a1c4";
+  const apiKey = "<your api_key>";
   const response = await axios.get(
     `http://www.omdbapi.com/?i=${imdbID}&plot=full&apikey=${apiKey}`
   );
